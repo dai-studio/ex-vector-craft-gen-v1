@@ -1,0 +1,22 @@
+{
+  "name": "vector-craft",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build:ts": "tsc --noEmit",
+    "build:css": "vite build",
+    "build": "npm run build:ts && npm run build:css",
+    "serve": "vite preview",
+    "start": "npm run build && npm run serve"
+  },
+  "dependencies": {
+    "three": "0.170.0"
+  },
+  "devDependencies": {
+    "@types/three": "0.170.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.6"
+  }
+}
