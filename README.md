@@ -6,6 +6,8 @@ All blocks use soft gradient textures, and distant terrain gets fog plus a depth
 
 Architecture lives in `design.dai`, the build plan in `plan.dai` and the execution log in `progress.dai`.
 
+Deployed: https://ex-vector-craft-gen-v1.dai.studio/
+
 ## Run
 
 ```sh
